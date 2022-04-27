@@ -13,6 +13,7 @@ class TextManager:
             "os": self.os_commands,
             "input": self.show_input
         }
+
         with open("./texts.json", "rb") as file:
             self.texts = json.loads(file.read())
   

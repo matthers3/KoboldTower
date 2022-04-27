@@ -1,4 +1,3 @@
-from player import Player
 from utils.text_manager import TextManager
 from UI.main_menu import MainMenu
 

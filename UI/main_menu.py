@@ -21,7 +21,6 @@ class MainMenu:
         """
         Displays main text and handles user input to select an option.
         """
-        
         while True:
             print(self.text["title"])
             print(self.text["sub_title" if not self.input_error else "input_error"]) 
@@ -36,6 +35,9 @@ class MainMenu:
                 
 
     def start_game(self):
+        """
+        Displays main story and starts the game.
+        """
         story = TextManager().texts["intro_story"]
         for i in story.keys():
             TextManager().typewritter(story[i])
