@@ -8,5 +8,13 @@
         "input": "Select option: ",
         "end_game": "\nSee you later little one!\n",
         "input_error": "That's not a valid option my small fellow. Try again:\n"
+    },
+    "intro_story": {
+        "p1": "[$os=clear][$speed=30]You are a little kobold walking through a swamp[$speed=10]...[$wait=0.5]",
+        "p2": "[$speed=30]Home...[$wait=1] that's what you are looking for.[$wait=0.5] But it's missing.",
+        "p3": "[$speed=30]Or maybe you are the one who is missing...[$wait=1]",
+        "p4": "[$speed=30]Sudenly,[$wait=0.5] you witness a collosal tower in front of you.",
+        "p5": "[$speed=30]From where did this get from? [$wait=0.5] How didn't you see such gigant thing when walking this way.",
+        "p6": "[$speed=30]With home nowhere to be found, you decide to venture inside the tower[$speed=5]...[$wait=0.5]\n\n[$input=Press to continue...][$os=clear]"
     }
 }

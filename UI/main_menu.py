@@ -19,7 +19,7 @@ class MainMenu:
 
     def display_title(self):
         """
-        Displays main text and handles input.
+        Displays main text and handles user input to select an option.
         """
         
         while True:
@@ -36,8 +36,11 @@ class MainMenu:
                 
 
     def start_game(self):
-        print("Hello.")
-        exit()    
+        story = TextManager().texts["intro_story"]
+        for i in story.keys():
+            TextManager().typewritter(story[i])
+        exit()
+
 
     def end_game(self):
         print(self.text["end_game"])
